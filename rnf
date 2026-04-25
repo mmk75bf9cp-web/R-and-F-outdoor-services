@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R&F Outdoor Services</title>
+  <meta name="description" content="Professional landscaping, lawn care, hedge trimming, and garden maintenance by R&F Outdoor Services." />
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+body {
+      background: #eef5e9;
+      color: #1d2b1d;
+      line-height: 1.6;
+    }
+
+    .website-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      background: white;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+      overflow: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f5f2d, #4e9b47);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header img {
+      width: 180px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 4px solid #dff2d6;
+    }
+header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+
+    .main-banner {
+      width: 100%;
+      display: block;
+    }
+
+    .content, .future-section, .reviews-section {
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .content h2, .future-section h2, .reviews-section h2 {
+      font-size: 2.3rem;
+      color: #1f5f2e;
+      margin-bottom: 20px;
+    }
+
+    .content p, .future-section p, .reviews-section p {
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      font-size: 1.1rem;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+.service-card {
+      background: #f6fbf3;
+      padding: 25px;
+      border-radius: 15px;
+      border: 2px solid #d8e8d2;
+    }
+
+    .service-card h3 {
+      color: #24532b;
+      margin-bottom: 12px;
+    }
+
+    .future-section {
+      background: #e4f1de;
+    }
+
+    .reviews-section {
+      background: #f8fcf6;
+    }
+
+    .review-form {
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: left;
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    }
+
+    .review-form label {
+      font-weight: bold;
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 8px;
+    }
+
+    .review-form input,
+    .review-form textarea,
+    .review-form select {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #cddfc8;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+
+    .review-form button {
+      margin-top: 20px;
+      background: #1f5f2e;
+      color: white;
+      border: none;
+      padding: 14px 24px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+ .review-form button:hover {
+      background: #2d7a3e;
+    }
+
+    footer {
+      background: #123d1d;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    footer p {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="website-container">
+
+    <!-- Update image names if stored in /images folder -->
+    <header>
+      <img src="logo.jpeg" alt="R&F Outdoor Services Logo">
+      <h1>R&F Outdoor Services</h1>
+      <p>Building Growth. Delivering Excellence.</p>
+    </header>
+
+    <img src="flyer.jpeg" alt="R&F Outdoor Services Flyer" class="main-banner">
+
+    <section class="content">
+      <h2>Your Outdoor Space, Our Priority</h2>
+      <p>
+        At R&F Outdoor Services, we are committed to delivering reliable, high-quality landscaping and outdoor maintenance solutions.
+      </p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Lawn Care</h3>
+          <p>Precision mowing and upkeep for healthy, neat lawns.</p>
+        </div>
+        <div class="service-card">
+          <h3>Garden Maintenance</h3>
+          <p>Trimming, tidying, and detailed care for every garden.</p>
+        </div>
+        <div class="service-card">
+          <h3>Seasonal Services</h3>
+          <p>Leaf clearing and seasonal preparation year-round.</p>
+        </div>
+        <div class="service-card">
+          <h3>Planting</h3>
+          <p>Enhancing outdoor beauty with thoughtful planting solutions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="future-section">
+      <h2>Looking Forward to the Future</h2>
+      <p>
+        The future for R&F Outdoor Services is one of progress, innovation, and ambition. 
+        We are excited to continue building a trusted name in outdoor services while creating greener, healthier, and more beautiful spaces for years to come.
+      </p>
+    </section>
+
+    <section class="reviews-section">
+      <h2>Leave a Review</h2>
+      <p>We value your feedback and would love to hear about your experience.</p>
+
+      <form class="review-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+<label for="rating">Rating</label>
+        <select id="rating" name="rating">
+          <option>⭐⭐⭐⭐⭐ Excellent</option>
+          <option>⭐⭐⭐⭐ Very Good</option>
+          <option>⭐⭐⭐ Good</option>
+          <option>⭐⭐ Fair</option>
+          <option>⭐ Poor</option>
+        </select>
+<label for="review">Your Review</label>
+        <textarea id="review" name="review" rows="5" placeholder="Write your feedback here..."></textarea>
+
+        <button type="submit">Submit Review</button>
+      </form>
+    </section>
+
+    <footer>
+      <p><strong>Contact Us Today</strong></p>
+      <p>Riley: +44 7464 962801 | Fletcher: +44 7541 515991</p>
+      <p>randfoutdoorservice@gmail.com</p>
+      <p>&copy; 2026 R&F Outdoor Services</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
